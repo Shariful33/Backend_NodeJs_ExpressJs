@@ -2,7 +2,7 @@
 
 const http = require("http");
 
-cb = (req,res)=>{
+const cb = (req,res)=>{
     res.writeHead(200,{"content-type": "text/pain"});
     res.end("Hello World!");
 }
@@ -13,3 +13,7 @@ const server = http.createServer(cb);
 server.listen(3000, function(){
     console.log("Server started....");
 })
+
+
+//ctrl+c -> Kill server in terminal
+//ctrl+j -> terminal open/close 
