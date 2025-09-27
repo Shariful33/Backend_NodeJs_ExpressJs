@@ -1,0 +1,15 @@
+//------------------Create Server Using NodeJS ------------------------------
+
+const http = require("http");
+
+cb = (req,res)=>{
+    res.writeHead(200,{"content-type": "text/pain"});
+    res.end("Hello World!");
+}
+
+const server = http.createServer(cb);
+
+//async use of callback- we dont know when callback function is called
+server.listen(3000, function(){
+    console.log("Server started....");
+})
