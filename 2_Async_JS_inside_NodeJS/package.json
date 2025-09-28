@@ -1,0 +1,14 @@
+{
+  "name": "use_of_async",
+  "version": "1.0.0",
+  "description": "Demo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sharif",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
