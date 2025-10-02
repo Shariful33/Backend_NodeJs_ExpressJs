@@ -33,4 +33,14 @@ let Par = {
 
 console.log(Par);
 
+//------------------------- Conversion between json and object -----------------
 
+const obj = { name: "Sharif", age: 24 };  
+
+// Convert Object -> JSON string
+const jsonData = JSON.stringify(obj);
+console.log(jsonData);   
+
+// Convert JSON string -> Object
+const parsed = JSON.parse(jsonData);
+console.log(parsed.name);  
