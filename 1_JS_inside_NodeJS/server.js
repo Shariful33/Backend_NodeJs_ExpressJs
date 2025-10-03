@@ -3,7 +3,7 @@
 const http = require("http");
 
 const cb = (req,res)=>{
-    res.writeHead(200,{"content-type": "text/pain"});
+    res.writeHead(200,{"content-type": "text/plain"});
     res.end("Hello World!");
 }
 

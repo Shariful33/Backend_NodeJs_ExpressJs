@@ -1,3 +1,4 @@
+//----------------Arrow Function -------------------------------
 
 let data = (param, param_two)=>{
     console.log("Shariful islam");
@@ -17,3 +18,5 @@ console.log(arr());
 let arr3 = ()=>{
 
 }
+
+//JS In great details
